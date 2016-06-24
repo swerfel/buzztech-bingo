@@ -4,3 +4,6 @@
 .project
 .gradle
 .settings
+node_modules
+gui/app/*.js
+gui/app/*.js.map

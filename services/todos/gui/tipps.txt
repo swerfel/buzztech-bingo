@@ -1,0 +1,5 @@
+to start the java script dev environment in docker build the image from root dir:
+	docker build -t mynode gui\dev-env\
+and start the container:
+	docker run -it --rm --name devnode -v <projectDir>/gui:/usr/src/app mynode npm start
+pay attention, that windows requires a special prefix for project dir: /c/Users/someUser/...
